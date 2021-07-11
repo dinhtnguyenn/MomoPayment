@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MomoPayment", "MomoPayment\MomoPayment.csproj", "{98F0C1FE-D7CA-46FE-98D1-DF60D6B7B352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F0C1FE-D7CA-46FE-98D1-DF60D6B7B352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F0C1FE-D7CA-46FE-98D1-DF60D6B7B352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F0C1FE-D7CA-46FE-98D1-DF60D6B7B352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F0C1FE-D7CA-46FE-98D1-DF60D6B7B352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B30CD464-49E8-4B4E-B6DD-A1DA9D3C242F}
+	EndGlobalSection
+EndGlobal
