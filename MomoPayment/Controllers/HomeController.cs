@@ -72,6 +72,9 @@ namespace MomoPayment.Controllers
             return Redirect(jmessage.GetValue("payUrl").ToString());
         }
 
+//Khi thanh toán xong ở cổng thanh toán Momo, Momo sẽ trả về một số thông tin, trong đó có errorCode để check thông tin thanh toán
+//errorCode = 0 : thanh toán thành công (Request.QueryString["errorCode"])
+//Tham khảo bảng mã lỗi tại: https://developers.momo.vn/#/docs/aio/?id=b%e1%ba%a3ng-m%c3%a3-l%e1%bb%97i
         public ActionResult ConfirmPaymentClient()
         {
             //hiển thị thông báo cho người dùng
